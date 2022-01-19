@@ -1,0 +1,11 @@
+$color1: #b38f79;
+$fondo: radial-gradient(ellipse, #fde7be, #e5c385, #b38f79);
+$fondoH1: #000000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    @include estiloCaja($color1, $fondo, $fondoH1);
+}

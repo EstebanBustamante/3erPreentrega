@@ -1,0 +1,10 @@
+@mixin estiloCaja ($color1, $fondo, $fondoH1){
+    background: $fondo;
+    h1{
+        color: $color1;
+        background-color: $fondoH1;
+    }
+    a:hover{
+        color: $color1;
+    }
+}
