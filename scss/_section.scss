@@ -1,5 +1,6 @@
 h1 {
     padding: 20px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.199);
     font-family: "Dancing Script", cursive;
     font-size: 35px;
     width: 225px;
@@ -12,14 +13,16 @@ h2 {
     font-family: "Dancing Script", cursive;
 }
 p {
-    @include estiloCaja($color1, $fondo, $fondoH1);
+    background-color: white;
     font-family: "Josefin Slab", serif;
     font-size: 24px;
     padding: 10px;
     line-height: 1.6;
+    border:solid black 0.25px
 }
 .h1m {
-    width: 400px;
+    width: auto;
+    height: auto;
 }
 .cm {
     width: 300px;
@@ -30,19 +33,24 @@ p {
     width: auto;
 }
 .pagi {
+    background-color: #212529;
+    border-radius: 0.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: auto;
 }
 .encuesta {
-    @include estiloCaja($color1, $fondo, $fondoH1);
+    background-color: white;
     font-family: "Josefin Slab", serif;
     font-size: 24px;
     padding: 5px;
     line-height: 1.6;
+    border: solid #000000 0.25px;
 }
-img:hover {
+.foto:hover {
     opacity: 1;
     border: solid black 2px;
     transform: scale(1.05, 1.05);
